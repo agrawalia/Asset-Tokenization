@@ -11,9 +11,7 @@
   "ast": {
     "absolutePath": "@openzeppelin/contracts/math/SafeMath.sol",
     "exportedSymbols": {
-      "SafeMath": [
-        285
-      ]
+      "SafeMath": [285]
     },
     "id": 286,
     "license": null,
@@ -21,12 +19,7 @@
     "nodes": [
       {
         "id": 91,
-        "literals": [
-          "solidity",
-          "^",
-          "0.6",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.6", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:3"
       },
@@ -43,9 +36,7 @@
         },
         "fullyImplemented": true,
         "id": 285,
-        "linearizedBaseContracts": [
-          285
-        ],
+        "linearizedBaseContracts": [285],
         "name": "SafeMath",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -56,9 +47,7 @@
               "src": "901:109:3",
               "statements": [
                 {
-                  "assignments": [
-                    103
-                  ],
+                  "assignments": [103],
                   "declarations": [
                     {
                       "constant": false,
@@ -220,10 +209,7 @@
                       "id": 108,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        -18,
-                        -18
-                      ],
+                      "overloadedDeclarations": [-18, -18],
                       "referencedDeclaration": -18,
                       "src": "938:7:3",
                       "typeDescriptions": {
@@ -461,10 +447,7 @@
                       "id": 128,
                       "name": "sub",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        135,
-                        163
-                      ],
+                      "overloadedDeclarations": [135, 163],
                       "referencedDeclaration": 163,
                       "src": "1358:3:3",
                       "typeDescriptions": {
@@ -694,10 +677,7 @@
                       "id": 147,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        -18,
-                        -18
-                      ],
+                      "overloadedDeclarations": [-18, -18],
                       "referencedDeclaration": -18,
                       "src": "1837:7:3",
                       "typeDescriptions": {
@@ -725,9 +705,7 @@
                   "src": "1837:29:3"
                 },
                 {
-                  "assignments": [
-                    155
-                  ],
+                  "assignments": [155],
                   "declarations": [
                     {
                       "constant": false,
@@ -1067,9 +1045,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    181
-                  ],
+                  "assignments": [181],
                   "declarations": [
                     {
                       "constant": false,
@@ -1263,10 +1239,7 @@
                       "id": 186,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        -18,
-                        -18
-                      ],
+                      "overloadedDeclarations": [-18, -18],
                       "referencedDeclaration": -18,
                       "src": "2536:7:3",
                       "typeDescriptions": {
@@ -1504,10 +1477,7 @@
                       "id": 208,
                       "name": "div",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        215,
-                        243
-                      ],
+                      "overloadedDeclarations": [215, 243],
                       "referencedDeclaration": 243,
                       "src": "3157:3:3",
                       "typeDescriptions": {
@@ -1742,10 +1712,7 @@
                       "id": 227,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        -18,
-                        -18
-                      ],
+                      "overloadedDeclarations": [-18, -18],
                       "referencedDeclaration": -18,
                       "src": "3889:7:3",
                       "typeDescriptions": {
@@ -1773,9 +1740,7 @@
                   "src": "3889:28:3"
                 },
                 {
-                  "assignments": [
-                    235
-                  ],
+                  "assignments": [235],
                   "declarations": [
                     {
                       "constant": false,
@@ -2094,10 +2059,7 @@
                       "id": 253,
                       "name": "mod",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        260,
-                        284
-                      ],
+                      "overloadedDeclarations": [260, 284],
                       "referencedDeclaration": 284,
                       "src": "4584:3:3",
                       "typeDescriptions": {
@@ -2332,10 +2294,7 @@
                       "id": 272,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        -18,
-                        -18
-                      ],
+                      "overloadedDeclarations": [-18, -18],
                       "referencedDeclaration": -18,
                       "src": "5237:7:3",
                       "typeDescriptions": {
@@ -2570,9 +2529,7 @@
   "legacyAST": {
     "absolutePath": "@openzeppelin/contracts/math/SafeMath.sol",
     "exportedSymbols": {
-      "SafeMath": [
-        285
-      ]
+      "SafeMath": [285]
     },
     "id": 286,
     "license": null,
@@ -2580,12 +2537,7 @@
     "nodes": [
       {
         "id": 91,
-        "literals": [
-          "solidity",
-          "^",
-          "0.6",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.6", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:3"
       },
@@ -2602,9 +2554,7 @@
         },
         "fullyImplemented": true,
         "id": 285,
-        "linearizedBaseContracts": [
-          285
-        ],
+        "linearizedBaseContracts": [285],
         "name": "SafeMath",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -2615,9 +2565,7 @@
               "src": "901:109:3",
               "statements": [
                 {
-                  "assignments": [
-                    103
-                  ],
+                  "assignments": [103],
                   "declarations": [
                     {
                       "constant": false,
@@ -2779,10 +2727,7 @@
                       "id": 108,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        -18,
-                        -18
-                      ],
+                      "overloadedDeclarations": [-18, -18],
                       "referencedDeclaration": -18,
                       "src": "938:7:3",
                       "typeDescriptions": {
@@ -3020,10 +2965,7 @@
                       "id": 128,
                       "name": "sub",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        135,
-                        163
-                      ],
+                      "overloadedDeclarations": [135, 163],
                       "referencedDeclaration": 163,
                       "src": "1358:3:3",
                       "typeDescriptions": {
@@ -3253,10 +3195,7 @@
                       "id": 147,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        -18,
-                        -18
-                      ],
+                      "overloadedDeclarations": [-18, -18],
                       "referencedDeclaration": -18,
                       "src": "1837:7:3",
                       "typeDescriptions": {
@@ -3284,9 +3223,7 @@
                   "src": "1837:29:3"
                 },
                 {
-                  "assignments": [
-                    155
-                  ],
+                  "assignments": [155],
                   "declarations": [
                     {
                       "constant": false,
@@ -3626,9 +3563,7 @@
                   }
                 },
                 {
-                  "assignments": [
-                    181
-                  ],
+                  "assignments": [181],
                   "declarations": [
                     {
                       "constant": false,
@@ -3822,10 +3757,7 @@
                       "id": 186,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        -18,
-                        -18
-                      ],
+                      "overloadedDeclarations": [-18, -18],
                       "referencedDeclaration": -18,
                       "src": "2536:7:3",
                       "typeDescriptions": {
@@ -4063,10 +3995,7 @@
                       "id": 208,
                       "name": "div",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        215,
-                        243
-                      ],
+                      "overloadedDeclarations": [215, 243],
                       "referencedDeclaration": 243,
                       "src": "3157:3:3",
                       "typeDescriptions": {
@@ -4301,10 +4230,7 @@
                       "id": 227,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        -18,
-                        -18
-                      ],
+                      "overloadedDeclarations": [-18, -18],
                       "referencedDeclaration": -18,
                       "src": "3889:7:3",
                       "typeDescriptions": {
@@ -4332,9 +4258,7 @@
                   "src": "3889:28:3"
                 },
                 {
-                  "assignments": [
-                    235
-                  ],
+                  "assignments": [235],
                   "declarations": [
                     {
                       "constant": false,
@@ -4653,10 +4577,7 @@
                       "id": 253,
                       "name": "mod",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        260,
-                        284
-                      ],
+                      "overloadedDeclarations": [260, 284],
                       "referencedDeclaration": 284,
                       "src": "4584:3:3",
                       "typeDescriptions": {
@@ -4891,10 +4812,7 @@
                       "id": 272,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        -18,
-                        -18
-                      ],
+                      "overloadedDeclarations": [-18, -18],
                       "referencedDeclaration": -18,
                       "src": "5237:7:3",
                       "typeDescriptions": {

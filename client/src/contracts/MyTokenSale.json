@@ -134,9 +134,7 @@
   "ast": {
     "absolutePath": "project:/contracts/MyTokenSale.sol",
     "exportedSymbols": {
-      "MyTokenSale": [
-        1517
-      ]
+      "MyTokenSale": [1517]
     },
     "id": 1518,
     "license": null,
@@ -144,12 +142,7 @@
     "nodes": [
       {
         "id": 1498,
-        "literals": [
-          "solidity",
-          "^",
-          "0.6",
-          ".1"
-        ],
+        "literals": ["solidity", "^", "0.6", ".1"],
         "nodeType": "PragmaDirective",
         "src": "0:23:10"
       },
@@ -186,21 +179,12 @@
             "src": "76:9:10"
           }
         ],
-        "contractDependencies": [
-          26,
-          1173,
-          1470
-        ],
+        "contractDependencies": [26, 1173, 1470],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
         "id": 1517,
-        "linearizedBaseContracts": [
-          1517,
-          1470,
-          1173,
-          26
-        ],
+        "linearizedBaseContracts": [1517, 1470, 1173, 26],
         "name": "MyTokenSale",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -396,21 +380,14 @@
     "attributes": {
       "absolutePath": "project:/contracts/MyTokenSale.sol",
       "exportedSymbols": {
-        "MyTokenSale": [
-          1517
-        ]
+        "MyTokenSale": [1517]
       },
       "license": null
     },
     "children": [
       {
         "attributes": {
-          "literals": [
-            "solidity",
-            "^",
-            "0.6",
-            ".1"
-          ]
+          "literals": ["solidity", "^", "0.6", ".1"]
         },
         "id": 1498,
         "name": "PragmaDirective",
@@ -422,9 +399,7 @@
           "absolutePath": "project:/contracts/Crowdsale.sol",
           "file": "./Crowdsale.sol",
           "scope": 1518,
-          "symbolAliases": [
-            null
-          ],
+          "symbolAliases": [null],
           "unitAlias": ""
         },
         "id": 1499,
@@ -434,20 +409,11 @@
       {
         "attributes": {
           "abstract": false,
-          "contractDependencies": [
-            26,
-            1173,
-            1470
-          ],
+          "contractDependencies": [26, 1173, 1470],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
-          "linearizedBaseContracts": [
-            1517,
-            1470,
-            1173,
-            26
-          ],
+          "linearizedBaseContracts": [1517, 1470, 1173, 26],
           "name": "MyTokenSale",
           "scope": 1518
         },
@@ -583,9 +549,7 @@
               },
               {
                 "attributes": {
-                  "parameters": [
-                    null
-                  ]
+                  "parameters": [null]
                 },
                 "children": [],
                 "id": 1514,
@@ -597,9 +561,7 @@
                   {
                     "attributes": {
                       "argumentTypes": null,
-                      "overloadedDeclarations": [
-                        null
-                      ],
+                      "overloadedDeclarations": [null],
                       "referencedDeclaration": 1470,
                       "type": "type(contract Crowdsale)",
                       "value": "Crowdsale"
@@ -611,9 +573,7 @@
                   {
                     "attributes": {
                       "argumentTypes": null,
-                      "overloadedDeclarations": [
-                        null
-                      ],
+                      "overloadedDeclarations": [null],
                       "referencedDeclaration": 1503,
                       "type": "uint256",
                       "value": "rate"
@@ -625,9 +585,7 @@
                   {
                     "attributes": {
                       "argumentTypes": null,
-                      "overloadedDeclarations": [
-                        null
-                      ],
+                      "overloadedDeclarations": [null],
                       "referencedDeclaration": 1505,
                       "type": "address payable",
                       "value": "wallet"
@@ -639,9 +597,7 @@
                   {
                     "attributes": {
                       "argumentTypes": null,
-                      "overloadedDeclarations": [
-                        null
-                      ],
+                      "overloadedDeclarations": [null],
                       "referencedDeclaration": 1507,
                       "type": "contract IERC20",
                       "value": "token"
@@ -657,9 +613,7 @@
               },
               {
                 "attributes": {
-                  "statements": [
-                    null
-                  ]
+                  "statements": [null]
                 },
                 "children": [],
                 "id": 1515,
@@ -694,7 +648,8 @@
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-04-20T06:24:25.467Z",
+  "updatedAt": "2022-04-23T13:04:51.812Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {
