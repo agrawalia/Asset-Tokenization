@@ -255,9 +255,7 @@
   "ast": {
     "absolutePath": "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol",
     "exportedSymbols": {
-      "ERC20Detailed": [
-        816
-      ]
+      "ERC20Detailed": [816]
     },
     "id": 817,
     "license": null,
@@ -265,12 +263,7 @@
     "nodes": [
       {
         "id": 755,
-        "literals": [
-          "solidity",
-          "^",
-          "0.6",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.6", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:5"
       },
@@ -307,9 +300,7 @@
             "src": "144:6:5"
           }
         ],
-        "contractDependencies": [
-          894
-        ],
+        "contractDependencies": [894],
         "contractKind": "contract",
         "documentation": {
           "id": 757,
@@ -319,10 +310,7 @@
         },
         "fullyImplemented": false,
         "id": 816,
-        "linearizedBaseContracts": [
-          816,
-          894
-        ],
+        "linearizedBaseContracts": [816, 894],
         "name": "ERC20Detailed",
         "nodeType": "ContractDefinition",
         "nodes": [
@@ -946,9 +934,7 @@
   "legacyAST": {
     "absolutePath": "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol",
     "exportedSymbols": {
-      "ERC20Detailed": [
-        816
-      ]
+      "ERC20Detailed": [816]
     },
     "id": 817,
     "license": null,
@@ -956,12 +942,7 @@
     "nodes": [
       {
         "id": 755,
-        "literals": [
-          "solidity",
-          "^",
-          "0.6",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.6", ".0"],
         "nodeType": "PragmaDirective",
         "src": "0:23:5"
       },
@@ -998,9 +979,7 @@
             "src": "144:6:5"
           }
         ],
-        "contractDependencies": [
-          894
-        ],
+        "contractDependencies": [894],
         "contractKind": "contract",
         "documentation": {
           "id": 757,
@@ -1010,10 +989,7 @@
         },
         "fullyImplemented": false,
         "id": 816,
-        "linearizedBaseContracts": [
-          816,
-          894
-        ],
+        "linearizedBaseContracts": [816, 894],
         "name": "ERC20Detailed",
         "nodeType": "ContractDefinition",
         "nodes": [
