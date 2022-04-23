@@ -8618,27 +8618,13 @@
   "ast": {
     "absolutePath": "project:/contracts/Crowdsale.sol",
     "exportedSymbols": {
-      "Address": [
-        1249
-      ],
-      "Context": [
-        1271
-      ],
-      "Crowdsale": [
-        1884
-      ],
-      "IERC20": [
-        705
-      ],
-      "ReentrancyGuard": [
-        39
-      ],
-      "SafeERC20": [
-        954
-      ],
-      "SafeMath": [
-        1583
-      ]
+      "Address": [1249],
+      "Context": [1271],
+      "Crowdsale": [1884],
+      "IERC20": [705],
+      "ReentrancyGuard": [39],
+      "SafeERC20": [954],
+      "SafeMath": [1583]
     },
     "id": 1885,
     "license": "MIT",
@@ -8646,12 +8632,7 @@
     "nodes": [
       {
         "id": 1585,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.8", ".0"],
         "nodeType": "PragmaDirective",
         "src": "33:23:8"
       },
@@ -8754,11 +8735,7 @@
         },
         "fullyImplemented": true,
         "id": 1884,
-        "linearizedBaseContracts": [
-          1884,
-          39,
-          1271
-        ],
+        "linearizedBaseContracts": [1884, 39, 1271],
         "name": "Crowdsale",
         "nameLocation": "1080:9:8",
         "nodeType": "ContractDefinition",
@@ -9154,10 +9131,7 @@
                       "id": 1633,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "2612:7:8",
                       "typeDescriptions": {
@@ -9308,10 +9282,7 @@
                       "id": 1640,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "2665:7:8",
                       "typeDescriptions": {
@@ -9506,10 +9477,7 @@
                       "id": 1650,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "2747:7:8",
                       "typeDescriptions": {
@@ -10257,9 +10225,7 @@
               "src": "4247:554:8",
               "statements": [
                 {
-                  "assignments": [
-                    1732
-                  ],
+                  "assignments": [1732],
                   "declarations": [
                     {
                       "constant": false,
@@ -10389,9 +10355,7 @@
                   "src": "4298:44:8"
                 },
                 {
-                  "assignments": [
-                    1742
-                  ],
+                  "assignments": [1742],
                   "declarations": [
                     {
                       "constant": false,
@@ -11135,10 +11099,7 @@
                       "id": 1789,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "5456:7:8",
                       "typeDescriptions": {
@@ -11245,10 +11206,7 @@
                       "id": 1799,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "5547:7:8",
                       "typeDescriptions": {

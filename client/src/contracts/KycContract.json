@@ -1326,9 +1326,7 @@
   "ast": {
     "absolutePath": "project:/contracts/KycContract.sol",
     "exportedSymbols": {
-      "KycContract": [
-        1954
-      ]
+      "KycContract": [1954]
     },
     "id": 1955,
     "license": "MIT",
@@ -1336,12 +1334,7 @@
     "nodes": [
       {
         "id": 1886,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.8", ".0"],
         "nodeType": "PragmaDirective",
         "src": "33:23:9"
       },
@@ -1353,9 +1346,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 1954,
-        "linearizedBaseContracts": [
-          1954
-        ],
+        "linearizedBaseContracts": [1954],
         "name": "KycContract",
         "nameLocation": "69:11:9",
         "nodeType": "ContractDefinition",
@@ -1530,10 +1521,7 @@
                       "id": 1894,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "179:7:9",
                       "typeDescriptions": {

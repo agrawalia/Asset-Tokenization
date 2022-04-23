@@ -8317,21 +8317,11 @@
   "ast": {
     "absolutePath": "project:/contracts/MyToken.sol",
     "exportedSymbols": {
-      "Context": [
-        1271
-      ],
-      "ERC20": [
-        627
-      ],
-      "IERC20": [
-        705
-      ],
-      "IERC20Metadata": [
-        730
-      ],
-      "MyToken": [
-        2013
-      ]
+      "Context": [1271],
+      "ERC20": [627],
+      "IERC20": [705],
+      "IERC20Metadata": [730],
+      "MyToken": [2013]
     },
     "id": 2014,
     "license": "MIT",
@@ -8339,12 +8329,7 @@
     "nodes": [
       {
         "id": 1993,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.8", ".0"],
         "nodeType": "PragmaDirective",
         "src": "33:23:11"
       },
@@ -8381,13 +8366,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 2013,
-        "linearizedBaseContracts": [
-          2013,
-          627,
-          730,
-          705,
-          1271
-        ],
+        "linearizedBaseContracts": [2013, 627, 730, 705, 1271],
         "name": "MyToken",
         "nameLocation": "124:7:11",
         "nodeType": "ContractDefinition",

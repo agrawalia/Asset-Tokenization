@@ -9420,33 +9420,15 @@
   "ast": {
     "absolutePath": "project:/contracts/MyTokenSale.sol",
     "exportedSymbols": {
-      "Address": [
-        1249
-      ],
-      "Context": [
-        1271
-      ],
-      "Crowdsale": [
-        1884
-      ],
-      "IERC20": [
-        705
-      ],
-      "KycContract": [
-        1954
-      ],
-      "MyCrowdsale": [
-        2071
-      ],
-      "ReentrancyGuard": [
-        39
-      ],
-      "SafeERC20": [
-        954
-      ],
-      "SafeMath": [
-        1583
-      ]
+      "Address": [1249],
+      "Context": [1271],
+      "Crowdsale": [1884],
+      "IERC20": [705],
+      "KycContract": [1954],
+      "MyCrowdsale": [2071],
+      "ReentrancyGuard": [39],
+      "SafeERC20": [954],
+      "SafeMath": [1583]
     },
     "id": 2072,
     "license": "MIT",
@@ -9454,12 +9436,7 @@
     "nodes": [
       {
         "id": 2015,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.8", ".0"],
         "nodeType": "PragmaDirective",
         "src": "33:23:12"
       },
@@ -9508,12 +9485,7 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 2071,
-        "linearizedBaseContracts": [
-          2071,
-          1884,
-          39,
-          1271
-        ],
+        "linearizedBaseContracts": [2071, 1884, 39, 1271],
         "name": "MyCrowdsale",
         "nameLocation": "123:11:12",
         "nodeType": "ContractDefinition",
@@ -9805,9 +9777,7 @@
             "visibility": "public"
           },
           {
-            "baseFunctions": [
-              1809
-            ],
+            "baseFunctions": [1809],
             "body": {
               "id": 2069,
               "nodeType": "Block",
@@ -10008,10 +9978,7 @@
                       "id": 2060,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "568:7:12",
                       "typeDescriptions": {
