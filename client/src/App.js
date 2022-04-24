@@ -7,7 +7,7 @@ import getWeb3 from "./getWeb3";
 import "./App.css";
 
 class App extends Component {
-  state = { loaded: false };
+  state = { loaded: false, kycAddress: "0x123..." };
 
   componentDidMount = async () => {
     try {
@@ -59,6 +59,13 @@ class App extends Component {
     });
   };
 
+  handleKycWhitelisting = async () => {
+    await this.kycInstance.methods
+      .setKycCompleted(this.state.kycAddress)
+      .send({ from: this.accounts[0] });
+    alert("KYC for " + this.state.kycAddress + " is completed");
+  };
+
   render() {
     if (!this.state.loaded) {
       return <div>Loading Web3, accounts, and contract...</div>;
@@ -67,7 +74,7 @@ class App extends Component {
       <div className="App">
         <h1>Starducks Cappuccino Token Sale</h1>
         <p>Get your tokens today</p>
-        <h2>Kyc Whitekisting</h2>
+        <h2>Kyc Whitelisting</h2>
         Address to allow{" "}
         <input
           type="text"
@@ -75,6 +82,9 @@ class App extends Component {
           value={this.state.kycAddress}
           onChange={this.handleInputChange}
         />
+        <button type="button" onClick={this.handleKycWhitelisting}>
+          Add to whitelist
+        </button>
       </div>
     );
   }
