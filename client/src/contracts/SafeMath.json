@@ -14,9 +14,7 @@
   "ast": {
     "absolutePath": "@openzeppelin/contracts/utils/math/SafeMath.sol",
     "exportedSymbols": {
-      "SafeMath": [
-        1583
-      ]
+      "SafeMath": [1583]
     },
     "id": 1584,
     "license": "MIT",
@@ -24,12 +22,7 @@
     "nodes": [
       {
         "id": 1273,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.8", ".0"],
         "nodeType": "PragmaDirective",
         "src": "92:23:7"
       },
@@ -47,9 +40,7 @@
         },
         "fullyImplemented": true,
         "id": 1583,
-        "linearizedBaseContracts": [
-          1583
-        ],
+        "linearizedBaseContracts": [1583],
         "name": "SafeMath",
         "nameLocation": "475:8:7",
         "nodeType": "ContractDefinition",
@@ -66,9 +57,7 @@
                   "src": "712:124:7",
                   "statements": [
                     {
-                      "assignments": [
-                        1287
-                      ],
+                      "assignments": [1287],
                       "declarations": [
                         {
                           "constant": false,
@@ -894,9 +883,7 @@
                       }
                     },
                     {
-                      "assignments": [
-                        1355
-                      ],
+                      "assignments": [1355],
                       "declarations": [
                         {
                           "constant": false,
@@ -2913,10 +2900,7 @@
                           "id": 1519,
                           "name": "require",
                           "nodeType": "Identifier",
-                          "overloadedDeclarations": [
-                            4294967278,
-                            4294967278
-                          ],
+                          "overloadedDeclarations": [4294967278, 4294967278],
                           "referencedDeclaration": 4294967278,
                           "src": "5104:7:7",
                           "typeDescriptions": {
@@ -3223,10 +3207,7 @@
                           "id": 1544,
                           "name": "require",
                           "nodeType": "Identifier",
-                          "overloadedDeclarations": [
-                            4294967278,
-                            4294967278
-                          ],
+                          "overloadedDeclarations": [4294967278, 4294967278],
                           "referencedDeclaration": 4294967278,
                           "src": "5819:7:7",
                           "typeDescriptions": {
@@ -3533,10 +3514,7 @@
                           "id": 1569,
                           "name": "require",
                           "nodeType": "Identifier",
-                          "overloadedDeclarations": [
-                            4294967278,
-                            4294967278
-                          ],
+                          "overloadedDeclarations": [4294967278, 4294967278],
                           "referencedDeclaration": 4294967278,
                           "src": "6695:7:7",
                           "typeDescriptions": {
@@ -3770,7 +3748,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-04-23T19:33:03.590Z",
+  "updatedAt": "2022-04-24T09:52:52.043Z",
   "devdoc": {
     "details": "Wrappers over Solidity's arithmetic operations. NOTE: `SafeMath` is generally not needed starting with Solidity 0.8, since the compiler now has built in overflow checking.",
     "kind": "dev",

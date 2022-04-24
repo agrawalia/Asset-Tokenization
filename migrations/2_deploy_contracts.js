@@ -2,10 +2,10 @@ var MyToken = artifacts.require("MyToken");
 var MyTokenSale = artifacts.require("MyTokenSale");
 var MyKycContract = artifacts.require("KycContract");
 require("dotenv").config({ path: "../.env" });
+console.log(process.env);
 
 module.exports = async function (deployer) {
-  let addr = web3.eth.getAccounts();
-  //address add = addr[0];
+  let addr = await web3.eth.getAccounts();
   await deployer.deploy(MyToken, process.env.INITIAL_TOKENS);
   await deployer.deploy(MyKycContract);
   await deployer.deploy(

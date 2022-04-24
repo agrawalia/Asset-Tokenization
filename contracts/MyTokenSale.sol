@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 import "./Crowdsale.sol";
 import "./KycContract.sol";
-contract MyCrowdsale is Crowdsale {
+contract MyTokenSale is Crowdsale {
     KycContract kyc;
     constructor(
         uint256 rate,    // rate in TKNbits

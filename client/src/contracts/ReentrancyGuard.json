@@ -14,9 +14,7 @@
   "ast": {
     "absolutePath": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
     "exportedSymbols": {
-      "ReentrancyGuard": [
-        39
-      ]
+      "ReentrancyGuard": [39]
     },
     "id": 40,
     "license": "MIT",
@@ -24,12 +22,7 @@
     "nodes": [
       {
         "id": 1,
-        "literals": [
-          "solidity",
-          "^",
-          "0.8",
-          ".0"
-        ],
+        "literals": ["solidity", "^", "0.8", ".0"],
         "nodeType": "PragmaDirective",
         "src": "97:23:0"
       },
@@ -47,9 +40,7 @@
         },
         "fullyImplemented": true,
         "id": 39,
-        "linearizedBaseContracts": [
-          39
-        ],
+        "linearizedBaseContracts": [39],
         "name": "ReentrancyGuard",
         "nameLocation": "891:15:0",
         "nodeType": "ContractDefinition",
@@ -325,10 +316,7 @@
                       "id": 21,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [
-                        4294967278,
-                        4294967278
-                      ],
+                      "overloadedDeclarations": [4294967278, 4294967278],
                       "referencedDeclaration": 4294967278,
                       "src": "2317:7:0",
                       "typeDescriptions": {
@@ -482,7 +470,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-04-23T19:33:03.432Z",
+  "updatedAt": "2022-04-24T09:52:51.908Z",
   "devdoc": {
     "details": "Contract module that helps prevent reentrant calls to a function. Inheriting from `ReentrancyGuard` will make the {nonReentrant} modifier available, which can be applied to functions to make sure there are no nested (reentrant) calls to them. Note that because there is a single `nonReentrant` guard, functions marked as `nonReentrant` may not call one another. This can be worked around by making those functions `private`, and then adding `external` `nonReentrant` entry points to them. TIP: If you would like to learn more about reentrancy and alternative ways to protect against it, check out our blog post https://blog.openzeppelin.com/reentrancy-after-istanbul/[Reentrancy After Istanbul].",
     "kind": "dev",
