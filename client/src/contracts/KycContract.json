@@ -49,8 +49,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"KycCompleted\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"setKycCompleted\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"setKycRevoked\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/KycContract.sol\":\"KycContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/KycContract.sol\":{\"keccak256\":\"0xaf6752ffc62d3071de08bf1bc735b34ab226ae87689409473da203d3a555196a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://069a6383a3e700ffa982784c46dcb8d0328a6785aeb6b4d56ff45c55ee4b022e\",\"dweb:/ipfs/QmTorfNzBGenCBo6xxdDVLjJQkvtqBoUALXxEqy2aczNMJ\"]}},\"version\":1}",
@@ -1327,7 +1326,9 @@
   "ast": {
     "absolutePath": "project:/contracts/KycContract.sol",
     "exportedSymbols": {
-      "KycContract": [1954]
+      "KycContract": [
+        1954
+      ]
     },
     "id": 1955,
     "license": "MIT",
@@ -1335,7 +1336,12 @@
     "nodes": [
       {
         "id": 1886,
-        "literals": ["solidity", "^", "0.8", ".0"],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
         "nodeType": "PragmaDirective",
         "src": "33:23:9"
       },
@@ -1347,7 +1353,9 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 1954,
-        "linearizedBaseContracts": [1954],
+        "linearizedBaseContracts": [
+          1954
+        ],
         "name": "KycContract",
         "nameLocation": "69:11:9",
         "nodeType": "ContractDefinition",
@@ -1522,7 +1530,10 @@
                       "id": 1894,
                       "name": "require",
                       "nodeType": "Identifier",
-                      "overloadedDeclarations": [4294967278, 4294967278],
+                      "overloadedDeclarations": [
+                        4294967278,
+                        4294967278
+                      ],
                       "referencedDeclaration": 4294967278,
                       "src": "177:7:9",
                       "typeDescriptions": {
@@ -2108,13 +2119,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x778F4f6B02f59ED9380cabCf208a5C3341D5E060",
-      "transactionHash": "0x3eb3b0e3f3dc03f6b85586fbc12bb5b2b0a290d087698dc01ce9f101418e3120"
+      "address": "0x805B5BFBc40de136FE8De1Fc97649ebf772E0217",
+      "transactionHash": "0xa5ab9217dbc22f78dfb622542201839221b6416f8248434bf0440cadacc3741b"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-04-24T11:04:05.343Z",
-  "networkType": "ethereum",
+  "updatedAt": "2022-04-30T07:13:58.274Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
