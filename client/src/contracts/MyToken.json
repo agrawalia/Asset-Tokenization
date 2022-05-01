@@ -84,8 +84,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -128,8 +127,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -142,8 +140,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -204,8 +201,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -218,8 +214,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -232,8 +227,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -8323,11 +8317,21 @@
   "ast": {
     "absolutePath": "project:/contracts/MyToken.sol",
     "exportedSymbols": {
-      "Context": [1271],
-      "ERC20": [627],
-      "IERC20": [705],
-      "IERC20Metadata": [730],
-      "MyToken": [2013]
+      "Context": [
+        1271
+      ],
+      "ERC20": [
+        627
+      ],
+      "IERC20": [
+        705
+      ],
+      "IERC20Metadata": [
+        730
+      ],
+      "MyToken": [
+        2013
+      ]
     },
     "id": 2014,
     "license": "MIT",
@@ -8335,7 +8339,12 @@
     "nodes": [
       {
         "id": 1993,
-        "literals": ["solidity", "^", "0.8", ".0"],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
         "nodeType": "PragmaDirective",
         "src": "33:23:11"
       },
@@ -8372,7 +8381,13 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "id": 2013,
-        "linearizedBaseContracts": [2013, 627, 730, 705, 1271],
+        "linearizedBaseContracts": [
+          2013,
+          627,
+          730,
+          705,
+          1271
+        ],
         "name": "MyToken",
         "nameLocation": "124:7:11",
         "nodeType": "ContractDefinition",
@@ -8636,13 +8651,12 @@
         }
       },
       "links": {},
-      "address": "0x60B3A64B5e4A26019C6C1a6065384284BF719cC9",
-      "transactionHash": "0xe5dab59b06619909bb6d9bfaa0f321432a68513e83ddf7b31fffed4fd06474d3"
+      "address": "0x09D4C4b1D49f82cF87b8a0A7e6570E2Ed2b663F8",
+      "transactionHash": "0x6ff60694ea4d7204b97594fcb89cbcea899a4f033813efa3c6a867df3fe64c53"
     }
   },
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-04-24T11:04:05.292Z",
-  "networkType": "ethereum",
+  "updatedAt": "2022-04-30T07:13:58.370Z",
   "devdoc": {
     "kind": "dev",
     "methods": {
